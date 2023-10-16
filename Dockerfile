@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # EXPOSE 3000
-EXPOSE 80
+EXPOSE 443
 # 安装应用程序的依赖
 RUN npm install
 
